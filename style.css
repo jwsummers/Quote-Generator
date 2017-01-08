@@ -1,0 +1,28 @@
+body {
+  background-image: url("http://escapingtheday.com/wp-content/uploads/2015/07/nice-5-minute-calming-relaxation.jpg");
+ background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+
+html {
+  text-align: center
+}
+
+#twitter{
+  color:white;
+  background-color:blue
+}
+
+#quoteDisplay {
+  border-radius:3px;
+  position:relative;
+  margin:8% auto auto auto;
+  width:450px;
+  padding:40px 50px;
+  display:table;
+  background-color:#fff;
+  font-size: 1.5em
+
+}
