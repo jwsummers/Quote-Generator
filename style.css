@@ -1,6 +1,6 @@
 body {
   background-image: url("http://escapingtheday.com/wp-content/uploads/2015/07/nice-5-minute-calming-relaxation.jpg");
- background-attachment: fixed;
+ background-attachment: fixed; 
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -2;
@@ -10,19 +10,14 @@ html {
   text-align: center
 }
 
-#twitter{
-  color:white;
-  background-color:blue
-}
-
-#quoteDisplay {
-  border-radius:3px;
-  position:relative;
-  margin:8% auto auto auto;
-  width:450px;
-  padding:40px 50px;
-  display:table;
-  background-color:#fff;
-  font-size: 1.5em
-
+h1 { font-family:Mr Dafoe, sans-serif;
+  font-size:4em;
+  text-align:center;
+  text-shadow: 0 -3px 0 #333,
+    0 6px 8px rgba(0,0,0,.4),
+    0 9px 10px rgba(0,0,0,.15),
+    0 30px 10px rgba(0,0,0,.18),
+    0 15px 10px rgba(0,0,0,.21); }
+#quote {
+  padding:5px
 }
